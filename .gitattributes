@@ -1,0 +1,9 @@
+TrackEval/** linguist-vendored
+*.pdf binary
+*.mp4 binary
+*.avi binary
+*.mov binary
+*.mkv binary
+*.png binary
+*.jpg binary
+*.jpeg binary
