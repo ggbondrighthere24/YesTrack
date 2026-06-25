@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated research artifacts
+/outputs/
+/track_result/
+/track_result_*/
+/track_result_old/
+/visualize/
+/runs/
+/wandb/
+/lightning_logs/
+/data_cache/
+/llm_eval/
+/llm_outputs/
+/logs/
+*.log
+
+# Local models, checkpoints, adapters, and datasets
+/checkpoints/
+/weights/
+/models/
+/datasets/
+/v1bestweight/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+
+# Large or generated media
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Local analysis dumps
+masks_extract_output.json
+TrackEval/error_log.txt
+yestrack.pdf
+
+# Uncurated experiment copies kept locally but excluded from the public release
+* copy.py
+* copy 2.py
